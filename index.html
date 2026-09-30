@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Portfolio de Eric, étudiant en informatique et développeur web."
+    />
+
+    <title>Eric | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo"> ERIC<span>.</span> </a>
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#education">Formation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ==================== HERO ==================== -->
+      <section class="hero" id="home">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Bonjour, je suis</p>
+
+            <h1>Eric</h1>
+
+            <h2>Étudiant en informatique</h2>
+
+            <p class="hero-description">
+              Je m'intéresse au développement web, aux systèmes Linux et aux
+              technologies DevOps. Je construis progressivement mes compétences
+              à travers des projets personnels et académiques.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary"> Voir mes projets </a>
+
+              <a href="#contact" class="btn btn-secondary"> Me contacter </a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="terminal">
+              <div class="terminal-header">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="terminal-body">
+                <p>
+                  <span class="terminal-green">eric</span>@portfolio:~$ whoami
+                </p>
+
+                <p class="terminal-output">Computer Science Student</p>
+
+                <p>
+                  <span class="terminal-green">eric</span>@portfolio:~$ skills
+                </p>
+
+                <p class="terminal-output">HTML CSS JavaScript C Linux Git</p>
+
+                <p><span class="terminal-green">eric</span>@portfolio:~$ _</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT ==================== -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-number">01</p>
+            <h2>À propos</h2>
+          </div>
+
+          <div class="about-grid">
+            <div>
+              <p class="lead">
+                Je suis étudiant en informatique à l'ESGI, avec un intérêt
+                particulier pour le développement web et les technologies
+                systèmes.
+              </p>
+            </div>
+
+            <div>
+              <p>
+                J'aime apprendre en construisant des projets concrets. Je
+                travaille notamment avec HTML, CSS, C, Git et Linux, et je
+                développe progressivement mes connaissances en JavaScript,
+                Docker, React et Node.js.
+              </p>
+
+              <p>
+                Mon objectif est de continuer à développer mes compétences
+                techniques à travers des projets, un stage ou une alternance
+                dans le domaine de l'informatique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SKILLS ==================== -->
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-number">02</p>
+            <h2>Compétences</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-icon">&lt;/&gt;</div>
+              <h3>Web</h3>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">C</div>
+              <h3>Programmation</h3>
+
+              <div class="tags">
+                <span>C</span>
+                <span>Git</span>
+                <span>Makefile</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">$_</div>
+              <h3>Systèmes</h3>
+
+              <div class="tags">
+                <span>Linux</span>
+                <span>Fedora</span>
+                <span>SSH</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">◇</div>
+              <h3>En apprentissage</h3>
+
+              <div class="tags">
+                <span>Docker</span>
+                <span>React</span>
+                <span>Node.js</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== PROJECTS ==================== -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-number">03</p>
+            <h2>Projets</h2>
+          </div>
+
+          <p class="section-intro">
+            Quelques projets réalisés ou en cours de développement.
+          </p>
+
+          <div class="projects-grid">
+            <!-- Projet 1 -->
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-folder">01</span>
+
+                <a
+                  href="https://github.com/Tdrakenx/projet-html-css"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Voir le projet HTML CSS sur GitHub"
+                >
+                  ↗
+                </a>
+              </div>
+
+              <h3>Projet HTML / CSS</h3>
+
+              <p>
+                Site web réalisé pour pratiquer la structure HTML, le CSS, la
+                mise en page et le responsive design.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Git</span>
+              </div>
+            </article>
+
+            <!-- Projet 2 -->
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-folder">02</span>
+
+                <a href="#" aria-label="Projet Linux"> ↗ </a>
+              </div>
+
+              <h3>Serveur Linux</h3>
+
+              <p>
+                Projet autour de Fedora Server avec configuration SSH,
+                utilisateurs, permissions et serveur Nginx.
+              </p>
+
+              <div class="project-tags">
+                <span>Linux</span>
+                <span>SSH</span>
+                <span>Nginx</span>
+              </div>
+            </article>
+
+            <!-- Projet 3 -->
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-folder">03</span>
+
+                <a href="#" aria-label="Projet Task Manager"> ↗ </a>
+              </div>
+
+              <h3>Task Manager</h3>
+
+              <p>
+                Application de gestion de tâches développée autour de React,
+                Node.js et MongoDB.
+              </p>
+
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </article>
+
+            <!-- Projet 4 -->
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-folder">04</span>
+
+                <a href="#" aria-label="Projet C"> ↗ </a>
+              </div>
+
+              <h3>Projets en C</h3>
+
+              <p>
+                Exercices et petits programmes permettant de pratiquer les bases
+                de la programmation en C.
+              </p>
+
+              <div class="project-tags">
+                <span>C</span>
+                <span>GCC</span>
+                <span>Make</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== EDUCATION ==================== -->
+      <section class="section section-alt" id="education">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-number">04</p>
+            <h2>Formation</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">2026 — Aujourd'hui</div>
+
+              <div class="timeline-content">
+                <h3>Bachelor Informatique</h3>
+
+                <p class="institution">ESGI — Paris</p>
+
+                <p>
+                  Formation en informatique avec un intérêt pour le
+                  développement web, les systèmes et les technologies
+                  informatiques.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CONTACT ==================== -->
+      <section class="section contact-section" id="contact">
+        <div class="container contact-content">
+          <div class="section-heading">
+            <p class="section-number">05</p>
+            <h2>Contact</h2>
+          </div>
+
+          <p class="contact-text">
+            Vous souhaitez échanger à propos d'un projet, d'un stage ou d'une
+            alternance ?
+          </p>
+
+          <a href="mailto:ton-email@example.com" class="btn btn-primary">
+            M'envoyer un email
+          </a>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/Tdrakenx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="current-year"></span> Eric.</p>
+
+        <p>Built with HTML, CSS & JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
